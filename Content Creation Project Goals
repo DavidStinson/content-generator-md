@@ -1,0 +1,24 @@
+Content Generation Automation Project Goals
+
+We build content for a coding bootcamp. We primarily build our content in github repos and organize multiple lesson repos into an organization to make an entire course. 
+
+We have a large repository of content organized into .md files for our lesson documents, as well as start and soltuion code for our labs. 
+
+Our goal is to create a workflow that can leverage our existing content to guide a LLM to generate new lesson and lab content and ultimtaely an entire course. 
+
+We will eventually build this workflow using CrewAI Agents. But for this project, we want to just focus on getting a LLM to build new content that meets our standards. 
+
+Our standards are: 
+
+- All lesson markdown follow our consistent brand guidelines 
+- All lesson markdown follow our learning design patterns 
+- All lessons follow a logical sequenece where one lesson leads into the next. The same is true with labs. 
+- Each lesson is one repo 
+- A course is made up of many repos in an org 
+- We are a project based learning organization, our lessons are 30 percent theory, with 70 percent applied hands on practice and demonstrations, that prepare a learning to then do more indepdenent practice of those skills in a lab. 
+- Our lessons are in American English 
+- Our lessons include diagrams and visuals to illustrate points 
+- Our lessons are typically 60 minutes to 90 minutes 
+- Our lessons always begin with clear learning objectives 
+- Our lessons are written for instructor live delivery, our deliveries are often do over zoom, with the instructor sharing their screen and walking through a .md and talking through the lessons materials, demonstrating code or other activities in their IDE or other tech tool as appropriate with students coding along. 
+

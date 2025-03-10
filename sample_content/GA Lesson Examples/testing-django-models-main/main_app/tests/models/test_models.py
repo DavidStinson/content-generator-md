@@ -1,0 +1,2 @@
+class ModelsTest:
+    pass

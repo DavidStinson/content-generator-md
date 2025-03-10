@@ -1,0 +1,880 @@
+{
+  "GA_Lab_Examples": [
+    {
+      "file_name": "django-crud-drf-lab-main/README.md",
+      "file_type": "lab",
+      "topic": "Django CRUD with Django Rest Framework",
+      "learning_objectives": [
+        "Build a full-stack Django application with authentication using Django Rest Framework (DRF)",
+        "Implement One-to-Many and Many-to-Many relationships with DRF serializers",
+        "Manage user authorization and data protection with DRF"
+      ],
+      "duration": "360",
+      "technologies": ["Django", "Django Rest Framework", "Python"],
+      "prerequisites": ["Basic Django knowledge", "Python fundamentals"],
+      "difficulty_level": "intermediate",
+      "content_structure": {
+        "has_setup_instructions": true,
+        "has_starter_code": true,
+        "has_solution_code": false
+      },
+      "associated_files": [],
+      "related_lessons": ["Django basics", "REST API design"],
+      "author": "Suresh Melvin Sigera",
+      "creation_date": "2025-03-01",
+      "content_metrics": {
+        "word_count": 600,
+        "code_line_count": 30,
+        "total_line_count": 100,
+        "number_of_images": 1,
+        "number_of_diagrams": 0,
+        "text_to_code_ratio": 0.95,
+        "content_density": {
+          "words_per_minute": 1.67,
+          "estimated_reading_time_minutes": 3
+        },
+        "code_blocks": {
+          "count": 3,
+          "average_size_lines": 10
+        }
+      },
+      "instructor_experience": {
+        "delivery_guidance": {
+          "instructor_preparation_time": 90,
+          "demonstration_points": 6,
+          "common_questions_anticipated": 12,
+          "teaching_approach": "deductive",
+          "pacing_suggestions": {
+            "introduction": 30,
+            "model_explanation": 60,
+            "api_design": 60,
+            "authentication": 60,
+            "guided_practice": 90,
+            "independent_work": 60
+          }
+        },
+        "instructional_design": {
+          "scaffolding_level": "high",
+          "knowledge_check_frequency": 5,
+          "alternative_explanations": true,
+          "instructor_notes_detail": "high"
+        }
+      },
+      "student_experience": {
+        "learning_journey": {
+          "cognitive_load_pattern": "stepped increase",
+          "autonomy_level": "medium",
+          "feedback_opportunities": 4,
+          "failure_recovery_guidance": "high"
+        },
+        "engagement_factors": {
+          "interactivity_score": "medium",
+          "real_world_relevance": "high",
+          "challenge_progression": "steep middle",
+          "achievement_milestones": 3
+        }
+      }
+    },
+    {
+      "file_name": "ENT-SEB-Python-python-unit-testing-lab-I-main/README.md",
+      "file_type": "lab",
+      "topic": "Python Unit Testing",
+      "learning_objectives": [
+        "Write unit tests for Python functions",
+        "Understand test-driven development principles",
+        "Use Python's unittest framework"
+      ],
+      "duration": "120",
+      "technologies": ["Python", "unittest"],
+      "prerequisites": ["Python fundamentals"],
+      "difficulty_level": "beginner",
+      "content_structure": {
+        "has_setup_instructions": true,
+        "has_starter_code": true,
+        "has_solution_code": true
+      },
+      "associated_files": ["src/lab.py", "tests/LabTest.py"],
+      "related_lessons": ["Python basics", "Testing fundamentals"],
+      "author": "General Assembly",
+      "creation_date": "2025-02-15",
+      "content_metrics": {
+        "word_count": 400,
+        "code_line_count": 50,
+        "total_line_count": 80,
+        "number_of_images": 0,
+        "number_of_diagrams": 0,
+        "text_to_code_ratio": 0.89,
+        "content_density": {
+          "words_per_minute": 3.33,
+          "estimated_reading_time_minutes": 2
+        },
+        "code_blocks": {
+          "count": 5,
+          "average_size_lines": 10
+        }
+      },
+      "instructor_experience": {
+        "delivery_guidance": {
+          "instructor_preparation_time": 30,
+          "demonstration_points": 4,
+          "common_questions_anticipated": 6,
+          "teaching_approach": "inductive",
+          "pacing_suggestions": {
+            "introduction": 10,
+            "test_first_concept": 20,
+            "unittest_framework": 30,
+            "guided_practice": 30,
+            "independent_work": 30
+          }
+        },
+        "instructional_design": {
+          "scaffolding_level": "medium",
+          "knowledge_check_frequency": 3,
+          "alternative_explanations": true,
+          "instructor_notes_detail": "medium"
+        }
+      },
+      "student_experience": {
+        "learning_journey": {
+          "cognitive_load_pattern": "consistent",
+          "autonomy_level": "medium",
+          "feedback_opportunities": 4,
+          "failure_recovery_guidance": "high"
+        },
+        "engagement_factors": {
+          "interactivity_score": "medium",
+          "real_world_relevance": "medium",
+          "challenge_progression": "gentle",
+          "achievement_milestones": 3
+        }
+      }
+    },
+    {
+      "file_name": "testing-rest-cat-api-views-lab-main/README.md",
+      "file_type": "lab",
+      "topic": "Testing REST API Views",
+      "learning_objectives": [
+        "Write tests for REST API endpoints",
+        "Understand API testing best practices",
+        "Implement test cases for CRUD operations"
+      ],
+      "duration": "180",
+      "technologies": ["Django", "Django Rest Framework", "Python", "Testing"],
+      "prerequisites": ["Django basics", "REST API fundamentals"],
+      "difficulty_level": "intermediate",
+      "content_structure": {
+        "has_setup_instructions": true,
+        "has_starter_code": true,
+        "has_solution_code": false
+      },
+      "associated_files": ["catcollector/", "main_app/"],
+      "related_lessons": ["Django REST framework", "API testing"],
+      "author": "General Assembly",
+      "creation_date": "2025-02-20",
+      "content_metrics": {
+        "word_count": 500,
+        "code_line_count": 70,
+        "total_line_count": 110,
+        "number_of_images": 0,
+        "number_of_diagrams": 0,
+        "text_to_code_ratio": 0.88,
+        "content_density": {
+          "words_per_minute": 2.78,
+          "estimated_reading_time_minutes": 3
+        },
+        "code_blocks": {
+          "count": 6,
+          "average_size_lines": 11.7
+        }
+      },
+      "instructor_experience": {
+        "delivery_guidance": {
+          "instructor_preparation_time": 60,
+          "demonstration_points": 5,
+          "common_questions_anticipated": 8,
+          "teaching_approach": "deductive",
+          "pacing_suggestions": {
+            "introduction": 15,
+            "api_testing_concepts": 30,
+            "test_case_design": 45,
+            "guided_practice": 45,
+            "independent_work": 45
+          }
+        },
+        "instructional_design": {
+          "scaffolding_level": "medium",
+          "knowledge_check_frequency": 4,
+          "alternative_explanations": true,
+          "instructor_notes_detail": "medium"
+        }
+      },
+      "student_experience": {
+        "learning_journey": {
+          "cognitive_load_pattern": "stepped increase",
+          "autonomy_level": "medium",
+          "feedback_opportunities": 3,
+          "failure_recovery_guidance": "medium"
+        },
+        "engagement_factors": {
+          "interactivity_score": "medium",
+          "real_world_relevance": "high",
+          "challenge_progression": "steady",
+          "achievement_milestones": 2
+        }
+      }
+    },
+    {
+      "file_name": "modern-javascript-syntax-lab-main/README.md",
+      "file_type": "lab",
+      "topic": "Modern JavaScript Syntax",
+      "learning_objectives": [
+        "Use ES6+ features in JavaScript",
+        "Implement modern JavaScript patterns",
+        "Understand JavaScript best practices"
+      ],
+      "duration": "150",
+      "technologies": ["JavaScript", "ES6+"],
+      "prerequisites": ["JavaScript basics"],
+      "difficulty_level": "beginner",
+      "content_structure": {
+        "has_setup_instructions": true,
+        "has_starter_code": true,
+        "has_solution_code": true
+      },
+      "associated_files": ["exercise/"],
+      "related_lessons": ["JavaScript fundamentals", "ES6 features"],
+      "author": "General Assembly",
+      "creation_date": "2025-01-25",
+      "content_metrics": {
+        "word_count": 450,
+        "code_line_count": 60,
+        "total_line_count": 90,
+        "number_of_images": 0,
+        "number_of_diagrams": 0,
+        "text_to_code_ratio": 0.88,
+        "content_density": {
+          "words_per_minute": 3.0,
+          "estimated_reading_time_minutes": 2.5
+        },
+        "code_blocks": {
+          "count": 8,
+          "average_size_lines": 7.5
+        }
+      },
+      "instructor_experience": {
+        "delivery_guidance": {
+          "instructor_preparation_time": 40,
+          "demonstration_points": 6,
+          "common_questions_anticipated": 7,
+          "teaching_approach": "comparative",
+          "pacing_suggestions": {
+            "introduction": 10,
+            "es6_features_overview": 20,
+            "code_comparison_examples": 40,
+            "guided_practice": 40,
+            "independent_work": 40
+          }
+        },
+        "instructional_design": {
+          "scaffolding_level": "medium",
+          "knowledge_check_frequency": 5,
+          "alternative_explanations": true,
+          "instructor_notes_detail": "medium"
+        }
+      },
+      "student_experience": {
+        "learning_journey": {
+          "cognitive_load_pattern": "feature by feature",
+          "autonomy_level": "medium",
+          "feedback_opportunities": 5,
+          "failure_recovery_guidance": "high"
+        },
+        "engagement_factors": {
+          "interactivity_score": "high",
+          "real_world_relevance": "high",
+          "challenge_progression": "incremental",
+          "achievement_milestones": 4
+        }
+      }
+    },
+    {
+      "file_name": "lifting-state-in-react-lab-main/README.md",
+      "file_type": "lab",
+      "topic": "Lifting State in React",
+      "learning_objectives": [
+        "Understand React state management",
+        "Implement state lifting between components",
+        "Create reusable React components"
+      ],
+      "duration": "180",
+      "technologies": ["React", "JavaScript"],
+      "prerequisites": ["React basics", "JavaScript fundamentals"],
+      "difficulty_level": "intermediate",
+      "content_structure": {
+        "has_setup_instructions": true,
+        "has_starter_code": true,
+        "has_solution_code": true
+      },
+      "associated_files": ["exercise/", "setup/", "create-a-reusable-ingredient-component/"],
+      "related_lessons": ["React fundamentals", "Component design"],
+      "author": "General Assembly",
+      "creation_date": "2025-02-10",
+      "content_metrics": {
+        "word_count": 350,
+        "code_line_count": 0,
+        "total_line_count": 65,
+        "number_of_images": 2,
+        "number_of_diagrams": 0,
+        "text_to_code_ratio": 1.0,
+        "content_density": {
+          "words_per_minute": 1.94,
+          "estimated_reading_time_minutes": 2
+        },
+        "code_blocks": {
+          "count": 0,
+          "average_size_lines": 0
+        }
+      },
+      "instructor_experience": {
+        "delivery_guidance": {
+          "instructor_preparation_time": 45,
+          "demonstration_points": 3,
+          "common_questions_anticipated": 5,
+          "teaching_approach": "inductive",
+          "pacing_suggestions": {
+            "introduction": 15,
+            "demonstration": 30,
+            "guided_practice": 45,
+            "independent_work": 90
+          }
+        },
+        "instructional_design": {
+          "scaffolding_level": "medium",
+          "knowledge_check_frequency": 4,
+          "alternative_explanations": true,
+          "instructor_notes_detail": "high"
+        }
+      },
+      "student_experience": {
+        "learning_journey": {
+          "cognitive_load_pattern": "gradual build",
+          "autonomy_level": "medium",
+          "feedback_opportunities": 3,
+          "failure_recovery_guidance": "high"
+        },
+        "engagement_factors": {
+          "interactivity_score": "high",
+          "real_world_relevance": "medium",
+          "challenge_progression": "steady",
+          "achievement_milestones": 2
+        }
+      }
+    }
+  ],
+  "GA_Lesson_Examples": [
+    {
+      "file_name": "aws-cloud-formation-main/README.md",
+      "file_type": "lesson",
+      "topic": "AWS CloudFormation Provisioning Resources",
+      "learning_objectives": [
+        "Understand the concept of infrastructure-as-code and the role of AWS CloudFormation",
+        "Gain familiarity with the AWS CloudFormation Designer",
+        "Learn how to create a CloudFormation stack and configure stack details",
+        "Understand the importance of key pairs for SSH access to EC2 instances"
+      ],
+      "duration": "60",
+      "technologies": ["AWS", "CloudFormation", "Infrastructure as Code"],
+      "content_structure": {
+        "theory_percentage": 30,
+        "practice_percentage": 70,
+        "has_diagrams": true,
+        "has_code_examples": true,
+        "has_demonstrations": true
+      },
+      "instructor_notes": "Ensure AWS account access is set up before the lesson",
+      "associated_files": ["images/"],
+      "related_labs": [],
+      "author": "General Assembly",
+      "creation_date": "2025-01-15",
+      "content_metrics": {
+        "word_count": 750,
+        "code_line_count": 8,
+        "total_line_count": 120,
+        "number_of_images": 9,
+        "number_of_diagrams": 0,
+        "text_to_code_ratio": 0.93,
+        "content_density": {
+          "words_per_minute": 12.5,
+          "estimated_reading_time_minutes": 4
+        },
+        "code_blocks": {
+          "count": 2,
+          "average_size_lines": 4
+        }
+      },
+      "instructor_experience": {
+        "delivery_guidance": {
+          "instructor_preparation_time": 60,
+          "demonstration_points": 5,
+          "common_questions_anticipated": 8,
+          "teaching_approach": "deductive",
+          "pacing_suggestions": {
+            "introduction": 10,
+            "concept_explanation": 15,
+            "demonstration": 25,
+            "guided_practice": 10
+          }
+        },
+        "instructional_design": {
+          "scaffolding_level": "high",
+          "knowledge_check_frequency": 3,
+          "alternative_explanations": true,
+          "instructor_notes_detail": "medium"
+        }
+      },
+      "student_experience": {
+        "learning_journey": {
+          "cognitive_load_pattern": "concept heavy start",
+          "autonomy_level": "low",
+          "feedback_opportunities": 4,
+          "failure_recovery_guidance": "medium"
+        },
+        "engagement_factors": {
+          "interactivity_score": "medium",
+          "real_world_relevance": "high",
+          "challenge_progression": "steep at end",
+          "achievement_milestones": 3
+        }
+      }
+    },
+    {
+      "file_name": "full-stack-react-code-along/README.md",
+      "file_type": "lesson",
+      "topic": "Full Stack React Application Development",
+      "learning_objectives": [
+        "Build a full-stack application with React frontend and Express backend",
+        "Implement CRUD operations across the stack",
+        "Connect React components to API endpoints"
+      ],
+      "duration": "90",
+      "technologies": ["React", "Express", "Node.js", "JavaScript"],
+      "content_structure": {
+        "theory_percentage": 30,
+        "practice_percentage": 70,
+        "has_diagrams": true,
+        "has_code_examples": true,
+        "has_demonstrations": true
+      },
+      "instructor_notes": "Code-along format, ensure students have Node.js installed",
+      "associated_files": ["express-todo-api/", "react-to-do-frontend-starter/"],
+      "related_labs": ["React CRUD lab"],
+      "author": "General Assembly",
+      "creation_date": "2025-02-05",
+      "content_metrics": {
+        "word_count": 600,
+        "code_line_count": 120,
+        "total_line_count": 180,
+        "number_of_images": 2,
+        "number_of_diagrams": 1,
+        "text_to_code_ratio": 0.83,
+        "content_density": {
+          "words_per_minute": 6.67,
+          "estimated_reading_time_minutes": 3
+        },
+        "code_blocks": {
+          "count": 10,
+          "average_size_lines": 12
+        }
+      },
+      "instructor_experience": {
+        "delivery_guidance": {
+          "instructor_preparation_time": 75,
+          "demonstration_points": 8,
+          "common_questions_anticipated": 10,
+          "teaching_approach": "code-along",
+          "pacing_suggestions": {
+            "introduction": 10,
+            "backend_setup": 20,
+            "frontend_setup": 20,
+            "connecting_components": 25,
+            "testing_integration": 15
+          }
+        },
+        "instructional_design": {
+          "scaffolding_level": "high",
+          "knowledge_check_frequency": 6,
+          "alternative_explanations": true,
+          "instructor_notes_detail": "high"
+        }
+      },
+      "student_experience": {
+        "learning_journey": {
+          "cognitive_load_pattern": "layered complexity",
+          "autonomy_level": "low",
+          "feedback_opportunities": 8,
+          "failure_recovery_guidance": "high"
+        },
+        "engagement_factors": {
+          "interactivity_score": "high",
+          "real_world_relevance": "high",
+          "challenge_progression": "steady",
+          "achievement_milestones": 5
+        }
+      }
+    },
+    {
+      "file_name": "ikea-app-and-gcp-deploy-content-main/README.md",
+      "file_type": "lesson",
+      "topic": "Deploying Applications to Google Cloud Platform",
+      "learning_objectives": [
+        "Build Express and React applications",
+        "Add Jest testing to applications",
+        "Deploy applications to Google Cloud Platform",
+        "Implement CI/CD with GitHub Actions"
+      ],
+      "duration": "90",
+      "technologies": ["GCP", "Express", "React", "Jest", "GitHub Actions"],
+      "content_structure": {
+        "theory_percentage": 30,
+        "practice_percentage": 70,
+        "has_diagrams": true,
+        "has_code_examples": true,
+        "has_demonstrations": true
+      },
+      "instructor_notes": "Ensure GCP account access is set up before the lesson",
+      "associated_files": ["images/", "IKEA-Express-Users-App.postman_collection.json"],
+      "related_labs": ["GCP deployment lab"],
+      "author": "General Assembly",
+      "creation_date": "2025-01-20",
+      "content_metrics": {
+        "word_count": 700,
+        "code_line_count": 100,
+        "total_line_count": 200,
+        "number_of_images": 5,
+        "number_of_diagrams": 1,
+        "text_to_code_ratio": 0.88,
+        "content_density": {
+          "words_per_minute": 7.78,
+          "estimated_reading_time_minutes": 4
+        },
+        "code_blocks": {
+          "count": 8,
+          "average_size_lines": 12.5
+        }
+      },
+      "instructor_experience": {
+        "delivery_guidance": {
+          "instructor_preparation_time": 90,
+          "demonstration_points": 7,
+          "common_questions_anticipated": 12,
+          "teaching_approach": "platform-guided",
+          "pacing_suggestions": {
+            "introduction": 10,
+            "gcp_overview": 15,
+            "app_preparation": 20,
+            "deployment_steps": 30,
+            "ci_cd_setup": 15
+          }
+        },
+        "instructional_design": {
+          "scaffolding_level": "high",
+          "knowledge_check_frequency": 4,
+          "alternative_explanations": true,
+          "instructor_notes_detail": "high"
+        }
+      },
+      "student_experience": {
+        "learning_journey": {
+          "cognitive_load_pattern": "platform focused",
+          "autonomy_level": "low",
+          "feedback_opportunities": 6,
+          "failure_recovery_guidance": "high"
+        },
+        "engagement_factors": {
+          "interactivity_score": "medium",
+          "real_world_relevance": "high",
+          "challenge_progression": "steep at start",
+          "achievement_milestones": 3
+        }
+      }
+    },
+    {
+      "file_name": "intro-to-oop-master/README.md",
+      "file_type": "lesson",
+      "topic": "Introduction to Object-Oriented Programming",
+      "learning_objectives": [
+        "Understand OOP principles",
+        "Implement classes and objects",
+        "Apply encapsulation, inheritance, and polymorphism"
+      ],
+      "duration": "75",
+      "technologies": ["Java", "OOP"],
+      "content_structure": {
+        "theory_percentage": 40,
+        "practice_percentage": 60,
+        "has_diagrams": true,
+        "has_code_examples": true,
+        "has_demonstrations": true
+      },
+      "instructor_notes": "Use diagrams to explain OOP concepts",
+      "associated_files": [],
+      "related_labs": ["OOP practice lab"],
+      "author": "General Assembly",
+      "creation_date": "2025-01-10",
+      "content_metrics": {
+        "word_count": 800,
+        "code_line_count": 80,
+        "total_line_count": 150,
+        "number_of_images": 0,
+        "number_of_diagrams": 3,
+        "text_to_code_ratio": 0.91,
+        "content_density": {
+          "words_per_minute": 10.67,
+          "estimated_reading_time_minutes": 4
+        },
+        "code_blocks": {
+          "count": 6,
+          "average_size_lines": 13.3
+        }
+      },
+      "instructor_experience": {
+        "delivery_guidance": {
+          "instructor_preparation_time": 60,
+          "demonstration_points": 5,
+          "common_questions_anticipated": 10,
+          "teaching_approach": "conceptual",
+          "pacing_suggestions": {
+            "introduction": 10,
+            "oop_principles": 20,
+            "class_design": 15,
+            "inheritance_demo": 15,
+            "polymorphism_examples": 15
+          }
+        },
+        "instructional_design": {
+          "scaffolding_level": "medium",
+          "knowledge_check_frequency": 5,
+          "alternative_explanations": true,
+          "instructor_notes_detail": "high"
+        }
+      },
+      "student_experience": {
+        "learning_journey": {
+          "cognitive_load_pattern": "concept heavy",
+          "autonomy_level": "medium",
+          "feedback_opportunities": 4,
+          "failure_recovery_guidance": "medium"
+        },
+        "engagement_factors": {
+          "interactivity_score": "medium",
+          "real_world_relevance": "medium",
+          "challenge_progression": "conceptual to practical",
+          "achievement_milestones": 3
+        }
+      }
+    },
+    {
+      "file_name": "react-router-dom-main/README.md",
+      "file_type": "lesson",
+      "topic": "React Router DOM",
+      "learning_objectives": [
+        "Understand client-side routing in React",
+        "Implement routes with React Router",
+        "Create navigation links and handle route parameters",
+        "Use programmatic navigation"
+      ],
+      "duration": "75",
+      "technologies": ["React", "React Router", "JavaScript"],
+      "content_structure": {
+        "theory_percentage": 30,
+        "practice_percentage": 70,
+        "has_diagrams": true,
+        "has_code_examples": true,
+        "has_demonstrations": true
+      },
+      "instructor_notes": "Build a multi-page application during the lesson",
+      "associated_files": ["assets/", "concepts/", "creating-links/", "creating-routes/"],
+      "related_labs": ["React Router lab"],
+      "author": "General Assembly",
+      "creation_date": "2025-02-01",
+      "content_metrics": {
+        "word_count": 650,
+        "code_line_count": 90,
+        "total_line_count": 160,
+        "number_of_images": 2,
+        "number_of_diagrams": 1,
+        "text_to_code_ratio": 0.88,
+        "content_density": {
+          "words_per_minute": 8.67,
+          "estimated_reading_time_minutes": 3.5
+        },
+        "code_blocks": {
+          "count": 7,
+          "average_size_lines": 12.9
+        }
+      }
+    }
+  ],
+  "GA_Capstone_Examples": [
+    {
+      "file_name": "pru-capstone-starter-code-main/README.md",
+      "file_type": "capstone",
+      "topic": "Full Stack Application Development",
+      "learning_objectives": [
+        "Develop a full-stack application with a financial theme",
+        "Apply all technologies covered in the course",
+        "Implement best practices in software development"
+      ],
+      "duration": "4 weeks",
+      "technologies": ["React", "Node.js", "Express", "Database technologies"],
+      "requirements": [
+        "Build a financial-themed application",
+        "Implement full-stack architecture",
+        "Submit code via GitHub Pull Request",
+        "Present the application"
+      ],
+      "evaluation_criteria": [
+        "Code quality",
+        "Functionality",
+        "User experience",
+        "Presentation"
+      ],
+      "associated_files": ["assets/Capstone-Project-Guidelines.pdf", "backend/", "frontend/"],
+      "author": "Prudential/General Assembly",
+      "creation_date": "2025-02-25",
+      "content_metrics": {
+        "word_count": 850,
+        "code_line_count": 5,
+        "total_line_count": 130,
+        "number_of_images": 0,
+        "number_of_diagrams": 0,
+        "text_to_code_ratio": 0.99,
+        "content_density": {
+          "words_per_minute": 0.25,
+          "estimated_reading_time_minutes": 5
+        },
+        "code_blocks": {
+          "count": 1,
+          "average_size_lines": 5
+        }
+      },
+      "instructor_experience": {
+        "delivery_guidance": {
+          "instructor_preparation_time": 120,
+          "demonstration_points": 2,
+          "common_questions_anticipated": 15,
+          "teaching_approach": "facilitative",
+          "pacing_suggestions": {
+            "project_introduction": 60,
+            "requirements_review": 30,
+            "technical_setup": 60,
+            "milestone_check_ins": 240,
+            "final_presentation_prep": 60
+          }
+        },
+        "instructional_design": {
+          "scaffolding_level": "low",
+          "knowledge_check_frequency": 2,
+          "alternative_explanations": false,
+          "instructor_notes_detail": "medium"
+        }
+      },
+      "student_experience": {
+        "learning_journey": {
+          "cognitive_load_pattern": "sustained high",
+          "autonomy_level": "high",
+          "feedback_opportunities": 5,
+          "failure_recovery_guidance": "medium"
+        },
+        "engagement_factors": {
+          "interactivity_score": "high",
+          "real_world_relevance": "high",
+          "challenge_progression": "self-directed",
+          "achievement_milestones": 4
+        }
+      }
+    }
+  ],
+  "GA_Course_Landing_Page_Examples": [
+    {
+      "file_name": "start-Here-main/README.md",
+      "file_type": "course_landing",
+      "course_title": "Advanced Java",
+      "course_description": "A comprehensive course on advanced Java concepts, algorithms, and data structures",
+      "duration": "1 week intensive",
+      "schedule": {
+        "total_days": 5,
+        "sessions_per_day": 8,
+        "session_duration": "60 minutes"
+      },
+      "technologies_covered": [
+        "Java",
+        "Data Structures",
+        "Algorithms",
+        "Recursion",
+        "Sorting Algorithms"
+      ],
+      "learning_path": [
+        "Algorithms and Pseudocode",
+        "Stacks and Queues",
+        "Linked Lists",
+        "Binary Search",
+        "Sorting Algorithms",
+        "Tree Algorithms",
+        "Mini-Project"
+      ],
+      "associated_files": [],
+      "author": "General Assembly",
+      "creation_date": "2025-01-05",
+      "content_metrics": {
+        "word_count": 225,
+        "code_line_count": 0,
+        "total_line_count": 45,
+        "number_of_images": 0,
+        "number_of_diagrams": 0,
+        "text_to_code_ratio": 1.0,
+        "content_density": {
+          "words_per_minute": 0.05,
+          "estimated_reading_time_minutes": 2
+        },
+        "code_blocks": {
+          "count": 0,
+          "average_size_lines": 0
+        }
+      },
+      "instructor_experience": {
+        "delivery_guidance": {
+          "instructor_preparation_time": 180,
+          "demonstration_points": 0,
+          "common_questions_anticipated": 10,
+          "teaching_approach": "structured",
+          "pacing_suggestions": {
+            "course_overview": 30,
+            "schedule_walkthrough": 15,
+            "expectations_setting": 15
+          }
+        },
+        "instructional_design": {
+          "scaffolding_level": "medium",
+          "knowledge_check_frequency": 0,
+          "alternative_explanations": false,
+          "instructor_notes_detail": "low"
+        }
+      },
+      "student_experience": {
+        "learning_journey": {
+          "cognitive_load_pattern": "preview",
+          "autonomy_level": "low",
+          "feedback_opportunities": 1,
+          "failure_recovery_guidance": "low"
+        },
+        "engagement_factors": {
+          "interactivity_score": "low",
+          "real_world_relevance": "medium",
+          "challenge_progression": "preview only",
+          "achievement_milestones": 0
+        }
+      }
+    }
+  ]
+}
